@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>English B2 Hub - Tracker</title>
+    <meta name="description" content="Bảng theo dõi thói quen học hằng tuần và mục tự kiểm tra." />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container nav">
+        <a href="index.html" class="brand">
+          <div class="brand-logo">B2</div>
+          <div>
+            <div>English B2 Hub</div>
+            <small style="color: var(--muted); font-weight: 500">Lộ trình học tiếng Anh toàn diện</small>
+          </div>
+        </a>
+        <nav class="nav-links">
+          <a href="index.html" class="">Trang chủ</a>
+<a href="resources.html" class="">Tài nguyên</a>
+<a href="vocabulary.html" class="">Vocabulary</a>
+<a href="grammar.html" class="">Grammar</a>
+<a href="listening.html" class="">Listening</a>
+<a href="reading.html" class="">Reading</a>
+<a href="speaking.html" class="">Speaking</a>
+<a href="writing.html" class="">Writing</a>
+<a href="tracker.html" class="active">Tracker</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+
+      <section class="hero">
+        <div class="container grid-2">
+          <div>
+            <div class="pill">📈 Tracker</div>
+            <h1 style="margin-top:18px;">Theo dõi đều mới thấy mình đang tiến bộ</h1>
+            <p>Trang này giúp bạn kiểm soát những thói quen quan trọng nhất mỗi tuần. Chỉ cần làm đều, không cần học quá nhiều một lúc.</p>
+          </div>
+          <div class="hero-card">
+            <h3>Cách dùng tracker tốt nhất</h3>
+            <ul class="list">
+              <li>Đặt mục tiêu tối thiểu cho mỗi tuần.</li>
+              <li>Chỉ theo dõi vài thói quen thật quan trọng.</li>
+              <li>Review lại vào cuối tuần và điều chỉnh.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container grid-2">
+          <article class="card">
+            <h3>Weekly habits</h3>
+            <div class="checklist-grid" id="habitChecklist"></div>
+          </article>
+          <article class="card">
+            <h3>Tiến độ tuần này</h3>
+            <p id="progressText">0 / 8 thói quen hoàn thành</p>
+            <div class="progress-shell"><div class="progress-bar" id="progressBar"></div></div>
+            <div class="note" style="margin-top:18px;">Bạn có thể reset thủ công bằng cách bỏ chọn các mục, hoặc xóa local storage của trình duyệt nếu muốn bắt đầu tuần mới sạch hoàn toàn.</div>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <div class="container grid-3">
+          <article class="resource-card"><h3>Mốc kiểm tra 1</h3><p>Tôi đã học đủ vocab và grammar cốt lõi trong tuần chưa?</p></article>
+          <article class="resource-card"><h3>Mốc kiểm tra 2</h3><p>Tôi có ít nhất 2 buổi nghe/đọc thật sự tập trung không?</p></article>
+          <article class="resource-card"><h3>Mốc kiểm tra 3</h3><p>Tôi đã nói hoặc viết thứ gì đó trong tuần chưa?</p></article>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <div class="container footer-row">
+        <div>© 2026 English B2 Hub. Thiết kế cho người học tiếng Anh tự học theo mục tiêu B2.</div>
+        <div>Vocabulary • Grammar • Listening • Reading • Speaking • Writing</div>
+      </div>
+    </footer>
+    <script src="assets/app.js"></script>
+  </body>
+</html>
