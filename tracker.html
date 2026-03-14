@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>English B2 Hub - Tracker</title>
-    <meta name="description" content="Bảng theo dõi thói quen học hằng tuần và mục tự kiểm tra." />
+    <title>English B2 Hub - Weekly tracker and milestones</title>
+    <meta name="description" content="Bảng theo dõi thói quen học và milestones 12 tuần cho mục tiêu B2." />
     <link rel="stylesheet" href="assets/styles.css" />
   </head>
   <body>
@@ -14,11 +14,10 @@
           <div class="brand-logo">B2</div>
           <div>
             <div>English B2 Hub</div>
-            <small style="color: var(--muted); font-weight: 500">Lộ trình học tiếng Anh toàn diện</small>
+            <small style="color: var(--muted); font-weight: 500">Lộ trình học tiếng Anh toàn diện để lên B2 hoặc hơn</small>
           </div>
         </a>
-        <nav class="nav-links">
-          <a href="index.html" class="">Trang chủ</a>
+        <nav class="nav-links"><a href="index.html" class="">Trang chủ</a>
 <a href="resources.html" class="">Tài nguyên</a>
 <a href="vocabulary.html" class="">Vocabulary</a>
 <a href="grammar.html" class="">Grammar</a>
@@ -26,59 +25,77 @@
 <a href="reading.html" class="">Reading</a>
 <a href="speaking.html" class="">Speaking</a>
 <a href="writing.html" class="">Writing</a>
-<a href="tracker.html" class="active">Tracker</a>
-        </nav>
+<a href="tracker.html" class="active">Tracker</a></nav>
       </div>
     </header>
     <main>
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="pill">📈 Tracker</div>
+      <h1>Theo dõi đều để thấy mình đang <span style="color:var(--accent)">tiến bộ thật</span>.</h1>
+      <p>Trang này biến lý thuyết thành hành động hàng tuần. Hãy đánh dấu các thói quen cốt lõi và review lại vào cuối tuần để điều chỉnh kế hoạch học.</p>
+    </div>
+    <div class="hero-card">
+      <h3>Cách dùng tracker tốt nhất</h3>
+      <ul class="list">
+        <li>Đặt mục tiêu tối thiểu, không đặt mục tiêu quá đẹp.</li>
+        <li>Chỉ theo dõi những thói quen thực sự tạo tiến bộ.</li>
+        <li>Review vào cuối tuần và sửa điểm yếu chính.</li>
+      </ul>
+    </div>
+  </div>
+</section>
 
-      <section class="hero">
-        <div class="container grid-2">
-          <div>
-            <div class="pill">📈 Tracker</div>
-            <h1 style="margin-top:18px;">Theo dõi đều mới thấy mình đang tiến bộ</h1>
-            <p>Trang này giúp bạn kiểm soát những thói quen quan trọng nhất mỗi tuần. Chỉ cần làm đều, không cần học quá nhiều một lúc.</p>
-          </div>
-          <div class="hero-card">
-            <h3>Cách dùng tracker tốt nhất</h3>
-            <ul class="list">
-              <li>Đặt mục tiêu tối thiểu cho mỗi tuần.</li>
-              <li>Chỉ theo dõi vài thói quen thật quan trọng.</li>
-              <li>Review lại vào cuối tuần và điều chỉnh.</li>
-            </ul>
-          </div>
-        </div>
-      </section>
+<section>
+  <div class="container grid-2">
+    <article class="card tracker-card"><h3>Weekly habits</h3><div id="habitChecklist" class="checklist-grid"></div></article>
+    <article class="card tracker-card"><h3>Tiến độ tuần này</h3><p id="progressText">0 / 8 thói quen hoàn thành</p><div class="progress-shell"><div id="progressBar" class="progress-bar"></div></div><div class="note" style="margin-top:18px">Mục tiêu thực tế: hoàn thành 5–6/8 mục mỗi tuần một cách đều đặn đã là rất tốt. Quan trọng là bền, không phải hoàn hảo.</div></article>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-title"><div><div class="kicker">Self review</div><h2>5 câu hỏi review cuối tuần</h2></div><p>Mỗi cuối tuần, hãy trả lời nhanh 5 câu này để tránh học nhiều nhưng không tiến bộ rõ ràng.</p></div>
+    <div class="grid-5">
+      <article class="card theory-card"><h3>1</h3><p>Tôi đã thực sự nói / viết bao nhiêu lần trong tuần?</p></article>
+      <article class="card theory-card"><h3>2</h3><p>Tôi đang mắc lỗi lặp lại nào nhiều nhất?</p></article>
+      <article class="card theory-card"><h3>3</h3><p>Tôi đã lưu và dùng lại được bao nhiêu cụm mới?</p></article>
+      <article class="card theory-card"><h3>4</h3><p>Tôi có đang học đúng level hay đang chọn bài quá khó / quá dễ?</p></article>
+      <article class="card theory-card"><h3>5</h3><p>Tuần sau tôi cần ưu tiên kỹ năng nào nhất?</p></article>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-title"><div><div class="kicker">12-week milestone</div><h2>Mốc cần đạt sau từng giai đoạn</h2></div><p>Dùng bảng này để tự đối chiếu xem bạn đang đi đúng hướng hay chưa.</p></div>
+    <div class="table-wrap"><table><thead><tr><th>Giai đoạn</th><th>Reading & Listening</th><th>Speaking & Writing</th><th>Ngôn ngữ</th></tr></thead><tbody><tr><td>Tuần 1–4</td><td>Làm tốt bài có level và transcript / support</td><td>Nói 60 giây, viết đoạn 100–120 từ</td><td>Khóa grammar nền, tăng topic vocabulary</td></tr><tr><td>Tuần 5–8</td><td>Tóm được ý chính và chi tiết quan trọng</td><td>Nói 90 giây, viết đoạn/essay ngắn có cấu trúc</td><td>Dùng collocations và linkers ổn hơn</td></tr><tr><td>Tuần 9–12</td><td>Bắt đầu làm được sample tasks gần chuẩn B2</td><td>Nói 2 phút, viết bài rõ task và tự chỉnh lỗi</td><td>Ít lỗi lặp lại, range tốt hơn</td></tr></tbody></table></div>
+  </div>
+</section>
 
       <section>
-        <div class="container grid-2">
-          <article class="card">
-            <h3>Weekly habits</h3>
-            <div class="checklist-grid" id="habitChecklist"></div>
-          </article>
-          <article class="card">
-            <h3>Tiến độ tuần này</h3>
-            <p id="progressText">0 / 8 thói quen hoàn thành</p>
-            <div class="progress-shell"><div class="progress-bar" id="progressBar"></div></div>
-            <div class="note" style="margin-top:18px;">Bạn có thể reset thủ công bằng cách bỏ chọn các mục, hoặc xóa local storage của trình duyệt nếu muốn bắt đầu tuần mới sạch hoàn toàn.</div>
-          </article>
+        <div class="container">
+          <div class="footer-cta">
+            <div class="section-title" style="margin-bottom:16px">
+              <div>
+                <div class="kicker">Next step</div>
+                <h2>Biến lý thuyết thành thói quen học hằng tuần</h2>
+              </div>
+              <p>Đừng cố đọc hết tất cả trong một lần. Hãy chọn 1–2 phần đang yếu nhất, học kỹ, áp dụng ngay trong tuần và theo dõi tiến bộ ở tracker.</p>
+            </div>
+            <div class="hero-actions" style="margin-top:0">
+              <a class="button button-primary" href="tracker.html">Mở tracker</a>
+              <a class="button button-secondary" href="resources.html">Xem tài nguyên</a>
+            </div>
+          </div>
         </div>
       </section>
-
-      <section>
-        <div class="container grid-3">
-          <article class="resource-card"><h3>Mốc kiểm tra 1</h3><p>Tôi đã học đủ vocab và grammar cốt lõi trong tuần chưa?</p></article>
-          <article class="resource-card"><h3>Mốc kiểm tra 2</h3><p>Tôi có ít nhất 2 buổi nghe/đọc thật sự tập trung không?</p></article>
-          <article class="resource-card"><h3>Mốc kiểm tra 3</h3><p>Tôi đã nói hoặc viết thứ gì đó trong tuần chưa?</p></article>
-        </div>
-      </section>
-
     </main>
-
     <footer>
       <div class="container footer-row">
-        <div>© 2026 English B2 Hub. Thiết kế cho người học tiếng Anh tự học theo mục tiêu B2.</div>
-        <div>Vocabulary • Grammar • Listening • Reading • Speaking • Writing</div>
+        <div>© 2026 English B2 Hub. Website học tiếng Anh theo mục tiêu B2, tối ưu cho GitHub Pages.</div>
+        <div>Vocabulary • Grammar • Listening • Reading • Speaking • Writing • Tracker</div>
       </div>
     </footer>
     <script src="assets/app.js"></script>
